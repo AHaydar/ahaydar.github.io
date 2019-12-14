@@ -1,0 +1,38 @@
+import React from 'react';
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="30"
+  height="30"
+  viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="a">
+      <polygon
+        points="3.58 10.89 3.58 14.9 3.58 26 9.3 26 9.3 14 9.3 10.89 3.58 10.89"
+        style="fill:none;clip-rule:evenodd"
+      />
+    </clipPath>
+    <clipPath id="b">
+      <path
+        d="M6.22,4A2.62,2.62,0,1,0,8.86,6.62,2.63,2.63,0,0,0,6.22,4"
+        style="fill:none;clip-rule:evenodd"
+      />
+    </clipPath>
+    <clipPath id="c">
+      <path
+        d="M20.8,10.89c-2.28,0-3.81.84-4.44,2H16.3v-2H12.09v15h4.4V18.44c0-2,.37-3.85,2.81-3.85s2.59,2.24,2.59,4v7.3h4.53V17.64h0a18.06,18.06,0,0,0-.11-2.15c-.36-2.83-1.67-4.6-5.51-4.6"
+        style="fill:none;clip-rule:evenodd"
+      />
+    </clipPath>
+  </defs>
+  <title>Ali Website Assets</title>
+  <g style="clip-path:url(#a)">
+    <rect x="-1.74" y="5.57" width="16.36" height="25.75" />
+  </g>
+  <g style="clip-path:url(#b)">
+    <rect x="-1.74" y="-1.32" width="15.92" height="15.88" />
+  </g>
+  <g style="clip-path:url(#c)">
+    <rect x="6.77" y="5.57" width="24.97" height="25.62" />
+  </g>
+</svg>

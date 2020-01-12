@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1439px" height="620px" viewBox="0 0 1439 620" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Rectangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="48.8654088%" y1="71.25194%" x2="50%" y2="40.7310957%" id="linearGradient-1">
+            <stop stop-color="#5081DA" offset="0%"></stop>
+            <stop stop-color="#323456" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Final-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-[Desktop]" transform="translate(0.000000, -1070.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <rect id="Rectangle-Copy" x="-1" y="1070" width="1440" height="620"></rect>
+        </g>
+    </g>
+</svg>

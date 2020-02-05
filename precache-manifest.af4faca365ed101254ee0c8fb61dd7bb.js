@@ -1,23 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4835af9083fbbdd55976c3e254e364c5",
+    "revision": "4b6f0b514670ca2de8eab832cc60337d",
     "url": "/personal-website/index.html"
   },
   {
-    "revision": "9c8f9933e0cf92b08986",
-    "url": "/personal-website/static/css/main.dc8b5341.chunk.css"
+    "revision": "2b266e0fc440009b560b",
+    "url": "/personal-website/static/css/main.c40cdc0a.chunk.css"
   },
   {
-    "revision": "75c79cae6f4e82498d1d",
-    "url": "/personal-website/static/js/2.7aab5e46.chunk.js"
+    "revision": "3fbb31328820d0e95c01",
+    "url": "/personal-website/static/js/2.777eef24.chunk.js"
   },
   {
-    "revision": "9c8f9933e0cf92b08986",
-    "url": "/personal-website/static/js/main.f0ae81cb.chunk.js"
+    "revision": "2b266e0fc440009b560b",
+    "url": "/personal-website/static/js/main.f0dc1262.chunk.js"
   },
   {
     "revision": "f5a60a27ec8e0ba479a2",
     "url": "/personal-website/static/js/runtime-main.afaf4a9a.js"
+  },
+  {
+    "revision": "33903b5f89087e9bd6563b3e5687fc1b",
+    "url": "/personal-website/static/media/AliImage.33903b5f.jpeg"
+  },
+  {
+    "revision": "9fc5c0879c0e9ce2c50eb84373910980",
+    "url": "/personal-website/static/media/BackgroundShape.9fc5c087.svg"
   },
   {
     "revision": "90564c2eea3d73e514ece3f593f5ed98",

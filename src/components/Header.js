@@ -1,19 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MenuIcon from '@material-ui/icons/Menu';
 import AliLogo from '../assets/icons/AliLogo';
 import SocialMediaIcons from './SocialMediaIcons';
 import './Header.scss';
+import * as firebase from 'firebase/app';
+import 'firebase/database';
 
-const menuItems = [
-  { title: 'home', url: '' },
-  { title: 'work', url: '' },
-  { title: 'blog', url: '' }
-];
+const firebaseConfig = {};
+
+firebase.initializeApp(firebaseConfig);
+
+// const menuItems = [
+//   { title: 'home', url: '' },
+//   { title: 'work', url: '' },
+//   { title: 'blog', url: '' }
+// ];
 
 const Header = () => {
   const [mobileHeaderItemsStatus, setHeaderItemsStatus] = useState(
     'header-items-hide'
   );
+
+  const [menuItems, setMenuItems] = useState(['home', 'work', 'blog']);
+
+  useEffect(() => {
+    const ref = firebase.database().ref('/');
+
+    ref.on('value', snapshot => {
+      setMenuItems(snapshot.val().menu);
+    });
+    console.log('Data retrieved', menuItems);
+  }, [menuItems[0]]);
 
   const handleIconToggleClick = () => {
     if (mobileHeaderItemsStatus === 'header-items-hide') {
@@ -24,7 +41,7 @@ const Header = () => {
   };
 
   const headerItemStatus = `header-item-status ${mobileHeaderItemsStatus}`;
-  
+
   return (
     <div className="header">
       <div className="header-logo">
@@ -34,8 +51,8 @@ const Header = () => {
         <div>
           <ul>
             {menuItems.map(item => (
-              <li key={item.title}>
-                <a href={item.url}>{item.title}</a>
+              <li key={item}>
+                <a href={'#'}>{item}</a>
               </li>
             ))}
           </ul>

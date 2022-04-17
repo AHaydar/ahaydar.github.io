@@ -8,10 +8,10 @@ import './Work.scss';
 const workItems = [
   {
     id: 1,
-    title: 'Testing & Automation',
+    title: 'Software development',
     content:
-      'I started my career as a tester, and did it for about 10 years. I wrote automation scripts using multiple tools and languages, and got to tinker with several software products. QA improved my critical thinking and helped me address problems from multiple perspectives, most importantly the customer perspective. During this period, I was also hands on deployments and its toolings.',
-    icon: <WorkIcon1 />,
+      'It is always pleasurable to solve problems through code, which is what I used to do for fun (and automation). But that was not enough, I wanted to experience this craft commercially and build complex software product. This would give me a full rounded skillset in the software industry, which would be a great assets for clients and companies. This is what I currently do as a full time job.',
+    icon: <WorkIcon3 />,
   },
   {
     id: 2,
@@ -22,10 +22,10 @@ const workItems = [
   },
   {
     id: 3,
-    title: 'Software development',
+    title: 'Testing & Automation',
     content:
-      'It is always pleasurable to solve problems through code, which is what I used to do for fun (and automation). But that was not enough, I wanted to experience this craft commercially and build complex software product. This would give me a full rounded skillset in the software industry, which would be a great assets for clients and companies. This is what I currently do as a full time job.',
-    icon: <WorkIcon3 />,
+      'I started my career as a tester, and did it for about 10 years. I wrote automation scripts using multiple tools and languages, and got to tinker with several software products. QA improved my critical thinking and helped me address problems from multiple perspectives, most importantly the customer perspective. During this period, I was also hands on deployments and its toolings.',
+    icon: <WorkIcon1 />,
   },
 ];
 

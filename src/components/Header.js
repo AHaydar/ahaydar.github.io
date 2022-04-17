@@ -7,9 +7,8 @@ import SocialMediaIcons from './SocialMediaIcons';
 import './Header.scss';
 
 const Header = () => {
-  const [mobileHeaderItemsStatus, setHeaderItemsStatus] = useState(
-    'header-items-hide'
-  );
+  const [mobileHeaderItemsStatus, setHeaderItemsStatus] =
+    useState('header-items-hide');
 
   const handleIconToggleClick = () => {
     if (mobileHeaderItemsStatus === 'header-items-hide') {
@@ -35,17 +34,14 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/now" onClick={handleIconToggleClick}>
-                now
-              </Link>
-            </li>
-            <li>
               <HashLink to="/#myWork" onClick={handleIconToggleClick}>
                 work
               </HashLink>
             </li>
             <li>
-              <a href="https://ali-haydar.medium.com/">blog</a>
+              <Link to="/blog" onClick={handleIconToggleClick}>
+                blog
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,0 +1,14 @@
+.blog-page {
+    display: flex;
+    flex-direction: column;
+
+    min-height: calc(100vh - 172px);
+    margin: 20px 100px 70px 100px;
+  }
+  
+  @media (max-width: 600px) {
+    .blog-page {
+      margin: 20px 50px 20px 50px;
+    }
+  }
+  

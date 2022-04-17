@@ -7,7 +7,7 @@ const Footer = () => (
   <div className="footer">
     <div className="copyright">
       <AliLogo className="ali-logo" />
-      <span>© ALI HAYDAR 2020</span>
+      <span>© ALI HAYDAR 2022</span>
     </div>
     <SocialMediaIcons className="social-media-icons" />
   </div>

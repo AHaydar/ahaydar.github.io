@@ -30,16 +30,22 @@ const Header = () => {
         <div>
           <ul>
             <li>
-              <Link to="/personal-website">home</Link>
+              <Link to="/" onClick={handleIconToggleClick}>
+                home
+              </Link>
             </li>
             <li>
-              <Link to="/personal-website/now">now</Link>
+              <Link to="/now" onClick={handleIconToggleClick}>
+                now
+              </Link>
             </li>
             <li>
-              <HashLink to="/#myWork">work</HashLink>
+              <HashLink to="/#myWork" onClick={handleIconToggleClick}>
+                work
+              </HashLink>
             </li>
             <li>
-              <a href="https://medium.com/@ali.haydar">blog</a>
+              <a href="https://ali-haydar.medium.com/">blog</a>
             </li>
           </ul>
         </div>

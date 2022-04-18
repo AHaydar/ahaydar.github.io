@@ -115,6 +115,34 @@ const posts = [
 
 const Blog = () => (
   <div className="blog-page">
+    <h3>
+      This page consolidates links to various blog posts I've written on
+      multiple platforms, including{' '}
+      <a
+        href="https://www.freecodecamp.org/news/author/ali/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        freecodecamp
+      </a>
+      ,{' '}
+      <a
+        href="https://ali-haydar.medium.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        dev.to
+      </a>{' '}
+      and{' '}
+      <a
+        href="https://dev.to/ahaydar"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        medium
+      </a>
+      {'.'}
+    </h3>
     {posts.map((post) => (
       <Post
         key={post.title}

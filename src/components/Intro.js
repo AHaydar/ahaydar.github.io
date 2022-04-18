@@ -9,15 +9,25 @@ const introData = [
   {
     id: 1,
     topic:
-      'A software engineer and lifelong learner. I strongly believe that good software is built through good collaboration and communication. I am a big fan of the DevOps ways of working.',
+      'I am a software engineer and a lifelong learner. I firmly believe that good software is built through good collaboration and communication. I am a big fan of the DevOps ways of working.',
   },
   {
     id: 2,
     topic:
-      'I try to find a balance between being a generalist and a specialist in software. My previous work has given me a solid experience in development, quality, cloud solutions, leadership and delivery. At the same time, I like to stay immersed in the code; I am currently utilising and building my skills in development and cloud architecture, using JavaScript (React & NodeJS) and AWS services ',
+      'I help organisations build and deliver high-quality software. My expertise ranges from getting into the nitty-gritty details of code (mainly JavaScript and infrastructure) to leading teams, designing software solutions, testing them and communicating progress.',
   },
   {
     id: 3,
+    topic:
+      'What excites me is solving real-world problems, mainly with technology (sometimes it starts operationally and then gets automated). I do not know many things, but I know how to learn them efficiently and rapidly. My best fit is a company that values equity, diversity and inclusion and is authentic in its mission.',
+  },
+  {
+    id: 4,
+    topic:
+      'My untraditional career path has equipped me with versatility across the software lifecycle, with a depth of knowledge in a few vital areas and a breadth that covers all the necessary tasks.',
+  },
+  {
+    id: 5,
     topic:
       'In my spare time, when I am not geeking out, I cycle, cook, do yoga and play board games with friends.',
   },

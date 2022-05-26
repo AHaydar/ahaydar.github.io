@@ -3,6 +3,13 @@ import Post from '../components/blog/Post';
 import './Blog.scss';
 const posts = [
   {
+    title: `How to Speed Up Your Lambda Functions`,
+    url: 'https://www.freecodecamp.org/news/how-to-speed-up-lambda-functions/',
+    summary: `AWS lambda has many use cases, from running scripts to gluing flows & processes within a serverless architecture. 
+          But what about cold starts? Won't they slow everything down? 
+          In this article we go over how to speed up your lambda functions.`,
+  },
+  {
     title: `How do you protect your customers' data on Amazon S3?`,
     url: 'https://dev.to/aws-builders/how-do-you-protect-your-customers-data-on-amazon-s3-k4i',
     summary: `With multiple security breaches that have happened in the past few years, mostly around
